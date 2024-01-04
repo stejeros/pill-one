@@ -1,0 +1,13 @@
+Bundle-Name: car-service-integration
+Bundle-SymbolicName: com.minsait.car.service.integration
+Bundle-Version: 1.0.0
+-metatype: *
+Web-ContextPath: /car-service-integration-web
+
+Export-Package: \
+
+
+Import-Package:\*;resolution:=optional
+
+-fixupmessages: Classes found in the wrong directory: ...;is:=ignore
+-noimportjava: true

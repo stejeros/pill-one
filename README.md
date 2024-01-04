@@ -16,6 +16,8 @@ Exponer unos servicios Spring ya creados en los contextos de BND de Liferay
  * Crear un módulo con los proyectos spring
  * Cambiar las dependencias para que tengas las mismas que Liferay si es posible
  * Crear un módulo llamado XXX-XXX-integration.
-   - Dentro del módulo, incluir una carpeta src/main/webapp
-      - 
-      - 
+   * Dentro del módulo, incluir una carpeta src/main/webapp
+     * Dentro de la misma carpeta, crear la carpeta WEB-INF con los ficheros
+       * app-context.xml
+       * web.xml
+       * liferay-plugin-package.properties

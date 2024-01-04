@@ -9,7 +9,7 @@ Exponer unos servicios Spring ya creados en los contextos de BND de Liferay
 ### Paso 1:
 
  * Iniciar el workspaces siguiendo [Creating A Liferay Workspace](https://learn.liferay.com/w/dxp/building-applications/tooling/liferay-workspace/creating-a-liferay-workspace)
- * Descargar el bundle 
+ * Descargar el bundle
    > sh gradlew initBundle
 
 ### Paso 2:
@@ -21,3 +21,4 @@ Exponer unos servicios Spring ya creados en los contextos de BND de Liferay
        * app-context.xml
        * web.xml
        * liferay-plugin-package.properties
+ * Añadir un bnd.bnd a cada uno de los módulos spring que queremos integrar en Liferay

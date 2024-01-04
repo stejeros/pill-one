@@ -1,6 +1,9 @@
+bundles/*
 .gradle/*
 gradle/*
 gradlew
+.idea/*
+**/build/*
 # Compiled class file
 *.class
 

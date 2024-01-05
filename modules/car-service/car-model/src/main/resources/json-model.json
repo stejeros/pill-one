@@ -1,0 +1,31 @@
+{
+    "pk": 1,
+    "engineinformation": {
+      "transmission": "6 Speed Automatic Select Shift", 
+      "enginetype": "Audi 3.2L 6 cylinder 250hp 236ft-lbs", 
+      "enginestatistics": {
+        "horsepower": 250, 
+        "torque": 236
+      }, 
+      "hybrid": false, 
+      "numberofforwardgears": 6, 
+      "driveline": "All-wheel drive"
+    }, 
+    "identification": {
+      "make": "Audi", 
+      "modelyear": "2009 Audi A3", 
+      "id": "2009 Audi A3 3.2", 
+      "classification": "Automatic transmission", 
+      "year": 2009
+    }, 
+    "dimensions": {
+      "width": 202, 
+      "length": 143, 
+      "height": 140
+    }, 
+    "fuelinformation": {
+      "highwaympg": 25, 
+      "citymph": 18, 
+      "fueltype": "Gasoline"
+    }
+  }

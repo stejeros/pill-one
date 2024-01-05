@@ -1,0 +1,12 @@
+Bundle-Name: car-service-model
+Bundle-SymbolicName: com.minsait.car.service.model
+Bundle-Version: 1.0.0
+-metatype: *
+
+Export-Package: \
+    com.practicas.model
+
+Import-Package:\*;resolution:=optional
+
+-fixupmessages: Classes found in the wrong directory: ...;is:=ignore
+-noimportjava: true

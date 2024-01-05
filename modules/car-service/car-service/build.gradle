@@ -1,0 +1,8 @@
+dependencies {
+    implementation project(':modules:car-service:car-dao')
+    implementation project(':modules:car-service:car-model')
+    implementation 'org.springframework:spring-context:5.2.24.RELEASE'
+    compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+description = 'car-service'

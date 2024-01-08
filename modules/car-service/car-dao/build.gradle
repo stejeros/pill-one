@@ -2,10 +2,12 @@
 dependencies {
     implementation project(':modules:car-service:car-model')
     implementation group: 'jakarta.persistence', name: 'jakarta.persistence-api', version: '2.2.1'
+    implementation group: 'javax.transaction', name: 'javax.transaction-api', version: '1.2'
     implementation 'org.springframework:spring-context:5.2.24.RELEASE'
     implementation 'org.springframework:spring-beans:5.2.24.RELEASE'
     implementation 'org.springframework:spring-tx:5.2.24.RELEASE'
     implementation 'org.springframework:spring-orm:5.2.24.RELEASE'
+
 }
 
 description = 'car-dao'

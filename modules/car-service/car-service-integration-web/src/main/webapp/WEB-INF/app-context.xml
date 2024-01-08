@@ -14,6 +14,7 @@
     <mvc:annotation-driven />
     <context:annotation-config/>
     <context:component-scan base-package="com.minsait.car.service.integration" />
+    <context:component-scan base-package="com.practicas" />
 
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.UrlBasedViewResolver">

@@ -50,7 +50,6 @@ public class CarServiceImpl implements CarService {
 	public long getTotalCar() {
 		return carDao.getTotalCat();
 	}
-
 	@Override
 	public long getCarsCount(List<Predicate<Car>> ps) {
 		return 0;

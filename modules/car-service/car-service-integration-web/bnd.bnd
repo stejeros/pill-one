@@ -5,7 +5,9 @@ Bundle-Version: 1.0.0
 Web-ContextPath: /car-service-integration-web
 
 Export-Package: \
-
+    com.practicas.model,\
+    com.practicas.services,\
+    com.minsait.car.service.integration.proxy
 
 Import-Package:\*;resolution:=optional
 

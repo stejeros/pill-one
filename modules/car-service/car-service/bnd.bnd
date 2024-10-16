@@ -4,6 +4,7 @@ Bundle-Version: 1.0.0
 -metatype: *
 
 Export-Package: \
+    com.practicas.services
 
 Import-Package:\*;resolution:=optional
 
